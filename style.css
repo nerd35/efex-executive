@@ -67,3 +67,14 @@
   .social-icon {
       width: 20px;
   }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="card"] {
+      width: 100%;
+    }
+    .client-section {
+        display: flex !important;
+        max-width: 100%;
+    }
+  }
